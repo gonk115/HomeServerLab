@@ -12,6 +12,20 @@ Home lab project documenting server virtualization, networking, and infrastructu
 - Virtual Machines
   - Jellyfin Media Server (Ubuntu VM)
 
+## Network Diagram
+ISP Router
+    |
+Netgear GS308
+    |
+Patch Panel
+    |
+Proxmox Host
+    |- Jellyfin VM
+    |- Acess-Gateway VM (Tailscale)
+
 ## Network Configuration
-- LAN setup using patch panel and switch
-- Static IP assignments for servers
+- Configured LAN using Netgear GS308 unmanaged switch
+- Assigned static IP to Proxmox host
+- Configured static IP inside Ubuntu VM
+- Verified connectivity via ping and SSH
+- Organized rack-mounted patch panel for cable management
