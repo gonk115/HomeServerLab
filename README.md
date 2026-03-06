@@ -20,7 +20,7 @@ Netgear GS308
 Patch Panel
     |
 Proxmox Host
-    |- Jellyfin VM (remote acess using Tailscale)
+    |- Jellyfin VM (remote access using Tailscale)
 
 ## Network Configuration
 - Configured LAN using Netgear GS308 unmanaged switch
